@@ -1,0 +1,25 @@
+.navbar{
+
+    li:hover::before{
+            content: '';
+            border-left: 4px solid #2A8356;
+            height: 32px;
+            position: absolute;
+            left: 0;
+    }
+
+
+    a{
+        padding: 8px;
+        color: #000;
+        &:hover{
+            color: #2A8356;
+        }
+        &:active{
+            color: #2A8356;
+        }
+    }
+
+}
+
+

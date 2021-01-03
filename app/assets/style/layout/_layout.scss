@@ -1,0 +1,27 @@
+.sidebar__logo{
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/logo-ANSWER.svg");
+    display: block;
+    width: 153px;
+    height: 42px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.info{
+    position: fixed;
+    bottom: 32px;
+    left: 32px;
+    .user__pic{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .user__mail{
+        font-size: 14px;
+        line-height: 17px;
+        color: #0000009A;
+    }
+}

@@ -1,0 +1,19 @@
+
+.link__item{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid #2A8356;
+    border-right: none;
+
+    a{
+        display: block;
+        &:hover {
+            background-color: #2A8356;
+            color: #fff;
+        }
+    }
+    .text-secondary{
+        padding: 0 4px 4px 4px;
+    }
+}
