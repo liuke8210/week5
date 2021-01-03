@@ -1,10 +1,83 @@
----
-title: admin
-layout: ./app/layout.ejs
-engine: ejs
-current: admin
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        admin
+    </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+    <div class="content d-flex">
+        <nav class="sidebar bg-primary">
+            <h1 class="mb-4">
+                <a class="sidebar__logo" href="#">answer</a>
+            </h1>
+            <ul class="navbar">
+                <li class="mb-3">
+                    <h3><a class="text bold" href="#">
+                            <span class="material-icons mr-2">
+                                assessment
+                            </span>
+                            Dashboard
+                        </a></h3>
+                </li>
+                <li class="mb-3">
+                    <h3><a class="bold" href="#">
+                            <span class="material-icons mr-2">
+                                question_answer
+                            </span>
+                            Question
+                        </a></h3>
+                </li>
+                <li class="mb-3">
+                    <h3><a class="bold" href="#">
+                            <span class="material-icons mr-2">
+                                assignment
+                            </span>
+                            Assignment
+                        </a></h3>
+                </li>
+                <li class="mb-3">
+                    <h3><a class="bold" href="#">
+                            <span class="material-icons mr-2">
+                                video_library
+                            </span>
+                            Course</a></h3>
+                </li>
+                <li class="mb-3">
+                    <h3><a class="bold" href="index.html">
+                            <span class="material-icons mr-2">
+                                group
+                            </span>
+                            Admin</a></h3>
+                </li>
+                <li class="mb-3">
+                    <h3><a class="bold" href="#">
+                            <span class="material-icons mr-2">
+                                settings
+                            </span>
+                            Settings</a></h3>
+                </li>
+            </ul>
+            <div class="info d-flex">
+                <img class="user__pic mr-2"
+                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg"
+                    alt="">
+                <div class="user__info">
+                    <h3 class="bold">Andy Chen</h3>
+                    <a class="user__mail" href="mailto:andy0401@mail.com">andy0401@mail.com</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            
 
 <main class="container">
   <header class="d-flex align-items mb-6">
@@ -200,3 +273,12 @@ current: admin
     </ul>
   </div>
 </main>
+        </main>
+    </div>
+
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
